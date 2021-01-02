@@ -1,0 +1,76 @@
+.wrap {
+    overflow-x:hidden;
+}
+.slideInRight {
+    animation-name: slideInRight;
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+.floating {   
+  animation-name: floating; 
+  animation-duration: 3s; 
+  animation-iteration-count: infinite; 
+  animation-timing-function: ease-in-out; 
+  margin-left: 30px; 
+  /* margin-top: 10px;  */
+} 
+
+@keyframes floating { 
+  0% { transform: translate(0,  0px); } 
+  50%  { transform: translate(0, 25px); } 
+  100%   { transform: translate(0, -0px); }     
+} 
+.floating1 {   
+  animation-name: floating1; 
+  animation-duration: 4s; 
+  animation-iteration-count: infinite; 
+  animation-timing-function: ease-in-out;
+  /* margin-top: 10px;  */
+} 
+
+@keyframes floating1 { 
+  0% { transform: translate(0,  0px); } 
+  50%  { transform: translate(0, 2px); } 
+  100%   { transform: translate(0, -0px); }     
+} 
+.floating2 {   
+  animation-name: floating2; 
+  animation-duration: 3s; 
+  animation-iteration-count: infinite; 
+  animation-timing-function: ease-in-out;
+  /* margin-top: 10px;  */
+} 
+
+@keyframes floating2 { 
+  0% { transform: translate(0,  0px); } 
+  50%  { transform: translate(0, 3px); } 
+  100%   { transform: translate(0, -0px); }     
+} 
+.floating3 {   
+  animation-name: floating3; 
+  animation-duration: 2s; 
+  animation-iteration-count: infinite; 
+  animation-timing-function: ease-in-out;
+  /* margin-top: 10px;  */
+} 
+
+@keyframes floating3 { 
+  0% { transform: translate(0,  0px); } 
+  50%  { transform: translate(0, 2px); } 
+  100%   { transform: translate(0, -0px); }     
+} 

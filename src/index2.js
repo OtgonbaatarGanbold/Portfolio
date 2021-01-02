@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Navbar from "./Component/Navbar/Index"
-import Animation from "./Component/Animation/Animation"
+import Navbar from "./Component/Navbar/Index";
 import reportWebVitals from './reportWebVitals';
-import Slider from './Component/Slider/Slider';
 
 ReactDOM.render(
   <React.StrictMode>
     <div className="">
-      {/* <Navbar /> */}
-      <Animation /> 
-      <Slider />
+      <Navbar />
+      <div>JOOOOOOOO</div>
     </div>
   </React.StrictMode>,
   document.getElementById('root')
